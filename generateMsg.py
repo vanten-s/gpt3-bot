@@ -1,4 +1,4 @@
-import main
+
 import os
 import openai
 import wandb
@@ -6,4 +6,4 @@ import wandb
 
 
 def generate(prompt):
-    return "UwU"
+    return "UwU!"
