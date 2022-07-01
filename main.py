@@ -1,6 +1,12 @@
 import discord
 import generateMsg
 
+from discord.ext import commands
+from discord.ext.commands import Bot
+from discord.voice_client import VoiceClient
+import asyncio
+from dotenv import load_dotenv
+
 # Write a discord bot that uses gpt-3 to generate text.
 # The bot should be able to generate text from a single command.
 
@@ -26,7 +32,7 @@ class Client(discord.Client):
         arguments = messageWithOutPrefix.split()[1:]
             
 
-        if command == 'generate':
+        if command == '!':
             # Make the bot look like it's typing
             await message.channel.trigger_typing()
             if len(arguments) == 0:
@@ -48,8 +54,11 @@ class Client(discord.Client):
             print('spam')
 
 
+
 client = Client()
-client.run('OTkyMzE4NzM0MjQ3MTMzMjY1.GGPHH0.NG9yUOOW_WEur94bHuLD50l7PZWYZAzmjXo65k')
+client.run(load_dotenv("DISCORD_TOKEN"))
+
+
 
 
 
