@@ -32,9 +32,15 @@ class Client(discord.Client):
                 return
             
             await message.channel.send(generateMsg.generate(" ".join(arguments)))
-            
+
         elif command == 'egg':
             await message.channel.send('spam')
+
+        elif command == 'spam':
+            for i in range(0, 5):
+                await message.channel.send('UwU')
+
+            print('spam')
 
 
 client = Client()
