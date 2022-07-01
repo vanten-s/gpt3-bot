@@ -135,8 +135,7 @@ async def gen(ctx: discord.ext.commands.context.Context):
     print("Atleast here")
     
     for x in bot.voice_clients:
-        if(x.server == ctx.message.server):
-            return await x.disconnect()
+        await x.disconnect()
 
     author = ctx.message.author
     channel = author.voice.channel
