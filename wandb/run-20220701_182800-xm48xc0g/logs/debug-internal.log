@@ -1,0 +1,42 @@
+2022-07-01 18:28:01,421 INFO    MainThread:151630 [internal.py:wandb_internal():90] W&B internal server running at pid: 151630, started at: 2022-07-01 18:28:01.421176
+2022-07-01 18:28:01,422 INFO    WriterThread:151630 [datastore.py:open_for_write():75] open: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_182800-xm48xc0g/run-xm48xc0g.wandb
+2022-07-01 18:28:01,423 DEBUG   SenderThread:151630 [sender.py:send():235] send: header
+2022-07-01 18:28:01,423 DEBUG   SenderThread:151630 [sender.py:send():235] send: run
+2022-07-01 18:28:01,673 DEBUG   HandlerThread:151630 [handler.py:handle_request():141] handle_request: check_version
+2022-07-01 18:28:01,696 INFO    SenderThread:151630 [dir_watcher.py:__init__():205] watching files in: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_182800-xm48xc0g/files
+2022-07-01 18:28:01,696 INFO    SenderThread:151630 [sender.py:_start_run_threads():812] run started: xm48xc0g with start time 1656692880
+2022-07-01 18:28:01,696 DEBUG   SenderThread:151630 [sender.py:send():235] send: summary
+2022-07-01 18:28:01,696 INFO    SenderThread:151630 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-01 18:28:01,696 DEBUG   SenderThread:151630 [sender.py:send_request():249] send_request: check_version
+2022-07-01 18:28:01,782 DEBUG   HandlerThread:151630 [handler.py:handle_request():141] handle_request: run_start
+2022-07-01 18:28:01,788 DEBUG   HandlerThread:151630 [meta.py:__init__():35] meta init
+2022-07-01 18:28:01,788 DEBUG   HandlerThread:151630 [meta.py:__init__():49] meta init done
+2022-07-01 18:28:01,788 DEBUG   HandlerThread:151630 [meta.py:probe():209] probe
+2022-07-01 18:28:01,794 DEBUG   HandlerThread:151630 [meta.py:_setup_git():199] setup git
+2022-07-01 18:28:01,797 DEBUG   HandlerThread:151630 [meta.py:_setup_git():206] setup git done
+2022-07-01 18:28:01,797 DEBUG   HandlerThread:151630 [meta.py:_save_pip():53] save pip
+2022-07-01 18:28:01,798 DEBUG   HandlerThread:151630 [meta.py:_save_pip():67] save pip done
+2022-07-01 18:28:01,798 DEBUG   HandlerThread:151630 [meta.py:probe():247] probe done
+2022-07-01 18:28:01,801 DEBUG   SenderThread:151630 [sender.py:send():235] send: files
+2022-07-01 18:28:01,802 INFO    SenderThread:151630 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2022-07-01 18:28:01,805 DEBUG   HandlerThread:151630 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-01 18:28:01,805 DEBUG   SenderThread:151630 [sender.py:send_request():249] send_request: stop_status
+2022-07-01 18:28:01,986 DEBUG   SenderThread:151630 [sender.py:send():235] send: telemetry
+2022-07-01 18:28:02,485 INFO    Thread-11 :151630 [upload_job.py:push():132] Uploaded file /tmp/tmpu9xyte2rwandb/2jgzdmg4-wandb-metadata.json
+2022-07-01 18:28:02,697 INFO    Thread-7  :151630 [dir_watcher.py:_on_file_created():256] file/dir created: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_182800-xm48xc0g/files/wandb-summary.json
+2022-07-01 18:28:02,697 INFO    Thread-7  :151630 [dir_watcher.py:_on_file_created():256] file/dir created: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_182800-xm48xc0g/files/output.log
+2022-07-01 18:28:02,697 INFO    Thread-7  :151630 [dir_watcher.py:_on_file_created():256] file/dir created: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_182800-xm48xc0g/files/requirements.txt
+2022-07-01 18:28:02,697 INFO    Thread-7  :151630 [dir_watcher.py:_on_file_created():256] file/dir created: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_182800-xm48xc0g/files/wandb-metadata.json
+2022-07-01 18:28:06,697 INFO    Thread-7  :151630 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_182800-xm48xc0g/files/output.log
+2022-07-01 18:28:12,699 INFO    Thread-7  :151630 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_182800-xm48xc0g/files/output.log
+2022-07-01 18:28:16,987 DEBUG   HandlerThread:151630 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-01 18:28:16,987 DEBUG   SenderThread:151630 [sender.py:send_request():249] send_request: stop_status
+2022-07-01 18:28:30,004 DEBUG   SenderThread:151630 [sender.py:send():235] send: stats
+2022-07-01 18:28:30,703 INFO    Thread-7  :151630 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_182800-xm48xc0g/files/output.log
+2022-07-01 18:28:32,175 DEBUG   HandlerThread:151630 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-01 18:28:32,222 DEBUG   SenderThread:151630 [sender.py:send_request():249] send_request: stop_status
+2022-07-01 18:28:32,704 INFO    Thread-7  :151630 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_182800-xm48xc0g/files/config.yaml
+2022-07-01 18:28:44,706 INFO    Thread-7  :151630 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_182800-xm48xc0g/files/output.log
+2022-07-01 18:28:46,707 INFO    Thread-7  :151630 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_182800-xm48xc0g/files/output.log
+2022-07-01 18:28:47,416 DEBUG   HandlerThread:151630 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-01 18:28:47,416 DEBUG   SenderThread:151630 [sender.py:send_request():249] send_request: stop_status
