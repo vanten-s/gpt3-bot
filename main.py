@@ -100,8 +100,8 @@ async def la(ctx):
     lang = ctx.message.content[4:].strip().lower()
 
 @bot.command(pass_context=True)
-async def doIt(ctx: discord.ext.commands.context.Context):
-    ResetAudio(ctx)
+async def doit(ctx: discord.ext.commands.context.Context):
+    await ResetAudio(ctx)
     guild = ctx.guild
     voice_client: discord.VoiceClient = discord.utils.get(bot.voice_clients, guild=guild)
 
@@ -127,8 +127,11 @@ async def gen(ctx: discord.ext.commands.context.Context):
     response = generateMsg.generate(ctx.message.content[5:])
 
     print("Atleast here")
-    
-    await ResetAudio(ctx)
+    try:
+        await ResetAudio(ctx)
+
+    except:
+        print("awww. ANYWAYS I")
 
     # response = "UWU"
 

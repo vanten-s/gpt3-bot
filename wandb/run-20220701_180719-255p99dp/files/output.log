@@ -1,0 +1,10 @@
+
+Ready
+Joining VC
+Atleast here
+[38m[48m[mp3 @ 0x563d8ec2e5c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x561c994ca5c0] Estimating duration from bitrate, this may be inaccurate
+/home/lua/Documents/Code/gpt3-bot/main.py:104: RuntimeWarning: coroutine 'ResetAudio' was never awaited
+  ResetAudio(ctx)
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
