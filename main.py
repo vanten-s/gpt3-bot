@@ -143,7 +143,7 @@ async def gen(ctx: discord.ext.commands.context.Context):
 
     print("Atleast here")
     
-    ResetAudio(ctx)
+    await ResetAudio(ctx)
 
     # response = "UWU"
 
