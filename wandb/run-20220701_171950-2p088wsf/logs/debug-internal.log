@@ -1,0 +1,177 @@
+2022-07-01 17:19:51,141 INFO    MainThread:142200 [internal.py:wandb_internal():90] W&B internal server running at pid: 142200, started at: 2022-07-01 17:19:51.140881
+2022-07-01 17:19:51,142 INFO    WriterThread:142200 [datastore.py:open_for_write():75] open: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/run-2p088wsf.wandb
+2022-07-01 17:19:51,143 DEBUG   SenderThread:142200 [sender.py:send():235] send: header
+2022-07-01 17:19:51,143 DEBUG   SenderThread:142200 [sender.py:send():235] send: run
+2022-07-01 17:19:51,420 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: check_version
+2022-07-01 17:19:51,423 INFO    SenderThread:142200 [dir_watcher.py:__init__():205] watching files in: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files
+2022-07-01 17:19:51,423 INFO    SenderThread:142200 [sender.py:_start_run_threads():812] run started: 2p088wsf with start time 1656688790
+2022-07-01 17:19:51,423 DEBUG   SenderThread:142200 [sender.py:send():235] send: summary
+2022-07-01 17:19:51,423 INFO    SenderThread:142200 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-01 17:19:51,423 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: check_version
+2022-07-01 17:19:51,537 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: run_start
+2022-07-01 17:19:51,545 DEBUG   HandlerThread:142200 [meta.py:__init__():35] meta init
+2022-07-01 17:19:51,545 DEBUG   HandlerThread:142200 [meta.py:__init__():49] meta init done
+2022-07-01 17:19:51,545 DEBUG   HandlerThread:142200 [meta.py:probe():209] probe
+2022-07-01 17:19:51,550 DEBUG   HandlerThread:142200 [meta.py:_setup_git():199] setup git
+2022-07-01 17:19:51,555 DEBUG   HandlerThread:142200 [meta.py:_setup_git():206] setup git done
+2022-07-01 17:19:51,555 DEBUG   HandlerThread:142200 [meta.py:_save_pip():53] save pip
+2022-07-01 17:19:51,555 DEBUG   HandlerThread:142200 [meta.py:_save_pip():67] save pip done
+2022-07-01 17:19:51,555 DEBUG   HandlerThread:142200 [meta.py:probe():247] probe done
+2022-07-01 17:19:51,558 DEBUG   SenderThread:142200 [sender.py:send():235] send: files
+2022-07-01 17:19:51,558 INFO    SenderThread:142200 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2022-07-01 17:19:51,562 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-01 17:19:51,562 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: stop_status
+2022-07-01 17:19:51,770 DEBUG   SenderThread:142200 [sender.py:send():235] send: telemetry
+2022-07-01 17:19:52,293 INFO    Thread-11 :142200 [upload_job.py:push():132] Uploaded file /tmp/tmpujpooeb4wandb/34p5onx7-wandb-metadata.json
+2022-07-01 17:19:52,424 INFO    Thread-7  :142200 [dir_watcher.py:_on_file_created():256] file/dir created: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files/requirements.txt
+2022-07-01 17:19:52,424 INFO    Thread-7  :142200 [dir_watcher.py:_on_file_created():256] file/dir created: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files/output.log
+2022-07-01 17:19:52,424 INFO    Thread-7  :142200 [dir_watcher.py:_on_file_created():256] file/dir created: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files/wandb-summary.json
+2022-07-01 17:19:52,425 INFO    Thread-7  :142200 [dir_watcher.py:_on_file_created():256] file/dir created: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files/wandb-metadata.json
+2022-07-01 17:19:56,425 INFO    Thread-7  :142200 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files/output.log
+2022-07-01 17:20:06,771 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-01 17:20:06,771 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: stop_status
+2022-07-01 17:20:12,429 INFO    Thread-7  :142200 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files/output.log
+2022-07-01 17:20:19,782 DEBUG   SenderThread:142200 [sender.py:send():235] send: stats
+2022-07-01 17:20:22,153 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-01 17:20:22,153 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: stop_status
+2022-07-01 17:20:22,431 INFO    Thread-7  :142200 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files/config.yaml
+2022-07-01 17:20:22,431 INFO    Thread-7  :142200 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files/output.log
+2022-07-01 17:20:34,434 INFO    Thread-7  :142200 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files/output.log
+2022-07-01 17:20:37,337 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-01 17:20:37,337 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: stop_status
+2022-07-01 17:20:50,006 DEBUG   SenderThread:142200 [sender.py:send():235] send: stats
+2022-07-01 17:20:52,667 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-01 17:20:52,667 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: stop_status
+2022-07-01 17:21:02,441 INFO    Thread-7  :142200 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files/output.log
+2022-07-01 17:21:07,848 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-01 17:21:07,848 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: stop_status
+2022-07-01 17:21:20,245 DEBUG   SenderThread:142200 [sender.py:send():235] send: stats
+2022-07-01 17:21:23,038 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-01 17:21:23,039 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: stop_status
+2022-07-01 17:21:38,292 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-01 17:21:38,292 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: stop_status
+2022-07-01 17:21:50,445 DEBUG   SenderThread:142200 [sender.py:send():235] send: stats
+2022-07-01 17:21:53,494 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-01 17:21:53,494 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: stop_status
+2022-07-01 17:22:08,688 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-01 17:22:08,688 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: stop_status
+2022-07-01 17:22:20,668 DEBUG   SenderThread:142200 [sender.py:send():235] send: stats
+2022-07-01 17:22:24,009 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-01 17:22:24,010 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: stop_status
+2022-07-01 17:22:31,536 WARNING MainThread:142200 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2022-07-01 17:22:31,539 DEBUG   SenderThread:142200 [sender.py:send():235] send: telemetry
+2022-07-01 17:22:33,722 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-01 17:22:33,723 DEBUG   SenderThread:142200 [sender.py:send():235] send: exit
+2022-07-01 17:22:33,723 INFO    SenderThread:142200 [sender.py:send_exit():371] handling exit code: 0
+2022-07-01 17:22:33,723 INFO    SenderThread:142200 [sender.py:send_exit():373] handling runtime: 162
+2022-07-01 17:22:33,724 INFO    SenderThread:142200 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-01 17:22:33,725 INFO    SenderThread:142200 [sender.py:send_exit():379] send defer
+2022-07-01 17:22:33,725 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: poll_exit
+2022-07-01 17:22:33,725 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: defer
+2022-07-01 17:22:33,725 INFO    HandlerThread:142200 [handler.py:handle_request_defer():164] handle defer: 0
+2022-07-01 17:22:33,725 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: defer
+2022-07-01 17:22:33,725 INFO    SenderThread:142200 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-07-01 17:22:33,725 INFO    SenderThread:142200 [sender.py:transition_state():392] send defer: 1
+2022-07-01 17:22:33,725 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: defer
+2022-07-01 17:22:33,726 INFO    HandlerThread:142200 [handler.py:handle_request_defer():164] handle defer: 1
+2022-07-01 17:22:33,779 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: defer
+2022-07-01 17:22:33,779 INFO    SenderThread:142200 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-07-01 17:22:33,779 INFO    SenderThread:142200 [sender.py:transition_state():392] send defer: 2
+2022-07-01 17:22:33,779 DEBUG   SenderThread:142200 [sender.py:send():235] send: stats
+2022-07-01 17:22:33,780 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: defer
+2022-07-01 17:22:33,780 INFO    HandlerThread:142200 [handler.py:handle_request_defer():164] handle defer: 2
+2022-07-01 17:22:33,780 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: defer
+2022-07-01 17:22:33,780 INFO    SenderThread:142200 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-07-01 17:22:33,780 INFO    SenderThread:142200 [sender.py:transition_state():392] send defer: 3
+2022-07-01 17:22:33,780 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: defer
+2022-07-01 17:22:33,780 INFO    HandlerThread:142200 [handler.py:handle_request_defer():164] handle defer: 3
+2022-07-01 17:22:33,780 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: defer
+2022-07-01 17:22:33,780 INFO    SenderThread:142200 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-07-01 17:22:33,780 INFO    SenderThread:142200 [sender.py:transition_state():392] send defer: 4
+2022-07-01 17:22:33,781 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: defer
+2022-07-01 17:22:33,781 INFO    HandlerThread:142200 [handler.py:handle_request_defer():164] handle defer: 4
+2022-07-01 17:22:33,781 DEBUG   SenderThread:142200 [sender.py:send():235] send: summary
+2022-07-01 17:22:33,781 INFO    SenderThread:142200 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-01 17:22:33,781 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: defer
+2022-07-01 17:22:33,781 INFO    SenderThread:142200 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-07-01 17:22:33,781 INFO    SenderThread:142200 [sender.py:transition_state():392] send defer: 5
+2022-07-01 17:22:33,782 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: defer
+2022-07-01 17:22:33,782 INFO    HandlerThread:142200 [handler.py:handle_request_defer():164] handle defer: 5
+2022-07-01 17:22:33,782 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: defer
+2022-07-01 17:22:33,782 INFO    SenderThread:142200 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-07-01 17:22:33,826 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-01 17:22:34,201 INFO    SenderThread:142200 [sender.py:transition_state():392] send defer: 6
+2022-07-01 17:22:34,201 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: poll_exit
+2022-07-01 17:22:34,201 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: defer
+2022-07-01 17:22:34,201 INFO    HandlerThread:142200 [handler.py:handle_request_defer():164] handle defer: 6
+2022-07-01 17:22:34,202 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: defer
+2022-07-01 17:22:34,202 INFO    SenderThread:142200 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-07-01 17:22:34,202 INFO    SenderThread:142200 [dir_watcher.py:finish():336] shutting down directory watcher
+2022-07-01 17:22:34,302 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-01 17:22:34,454 INFO    SenderThread:142200 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files/config.yaml
+2022-07-01 17:22:34,454 INFO    SenderThread:142200 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files/wandb-summary.json
+2022-07-01 17:22:34,454 INFO    SenderThread:142200 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files/output.log
+2022-07-01 17:22:34,454 INFO    SenderThread:142200 [dir_watcher.py:finish():366] scan: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files
+2022-07-01 17:22:34,455 INFO    SenderThread:142200 [dir_watcher.py:finish():380] scan save: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files/config.yaml config.yaml
+2022-07-01 17:22:34,455 INFO    SenderThread:142200 [dir_watcher.py:finish():380] scan save: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files/wandb-summary.json wandb-summary.json
+2022-07-01 17:22:34,455 INFO    SenderThread:142200 [dir_watcher.py:finish():380] scan save: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files/requirements.txt requirements.txt
+2022-07-01 17:22:34,457 INFO    SenderThread:142200 [dir_watcher.py:finish():380] scan save: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files/wandb-metadata.json wandb-metadata.json
+2022-07-01 17:22:34,457 INFO    SenderThread:142200 [dir_watcher.py:finish():380] scan save: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files/output.log output.log
+2022-07-01 17:22:34,457 INFO    SenderThread:142200 [sender.py:transition_state():392] send defer: 7
+2022-07-01 17:22:34,457 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: poll_exit
+2022-07-01 17:22:34,459 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: defer
+2022-07-01 17:22:34,460 INFO    HandlerThread:142200 [handler.py:handle_request_defer():164] handle defer: 7
+2022-07-01 17:22:34,462 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: defer
+2022-07-01 17:22:34,462 INFO    SenderThread:142200 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-07-01 17:22:34,462 INFO    SenderThread:142200 [file_pusher.py:finish():145] shutting down file pusher
+2022-07-01 17:22:34,561 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-01 17:22:34,561 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: poll_exit
+2022-07-01 17:22:34,663 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-01 17:22:34,665 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: poll_exit
+2022-07-01 17:22:34,767 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-01 17:22:34,767 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: poll_exit
+2022-07-01 17:22:34,868 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-01 17:22:34,868 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: poll_exit
+2022-07-01 17:22:34,969 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-01 17:22:34,970 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: poll_exit
+2022-07-01 17:22:35,053 INFO    Thread-15 :142200 [upload_job.py:push():132] Uploaded file /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files/output.log
+2022-07-01 17:22:35,062 INFO    Thread-14 :142200 [upload_job.py:push():132] Uploaded file /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files/requirements.txt
+2022-07-01 17:22:35,071 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-01 17:22:35,071 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: poll_exit
+2022-07-01 17:22:35,078 INFO    Thread-13 :142200 [upload_job.py:push():132] Uploaded file /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files/wandb-summary.json
+2022-07-01 17:22:35,079 INFO    Thread-12 :142200 [upload_job.py:push():132] Uploaded file /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/files/config.yaml
+2022-07-01 17:22:35,172 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-01 17:22:35,172 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: poll_exit
+2022-07-01 17:22:35,273 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-01 17:22:35,273 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: poll_exit
+2022-07-01 17:22:35,279 INFO    Thread-6 (_thread_body):142200 [sender.py:transition_state():392] send defer: 8
+2022-07-01 17:22:35,280 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: defer
+2022-07-01 17:22:35,280 INFO    HandlerThread:142200 [handler.py:handle_request_defer():164] handle defer: 8
+2022-07-01 17:22:35,280 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: defer
+2022-07-01 17:22:35,280 INFO    SenderThread:142200 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-07-01 17:22:35,374 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-01 17:22:36,246 INFO    SenderThread:142200 [sender.py:transition_state():392] send defer: 9
+2022-07-01 17:22:36,246 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: poll_exit
+2022-07-01 17:22:36,247 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: defer
+2022-07-01 17:22:36,247 INFO    HandlerThread:142200 [handler.py:handle_request_defer():164] handle defer: 9
+2022-07-01 17:22:36,247 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: defer
+2022-07-01 17:22:36,247 INFO    SenderThread:142200 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-07-01 17:22:36,247 INFO    SenderThread:142200 [sender.py:transition_state():392] send defer: 10
+2022-07-01 17:22:36,247 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: defer
+2022-07-01 17:22:36,248 DEBUG   SenderThread:142200 [sender.py:send():235] send: final
+2022-07-01 17:22:36,248 INFO    HandlerThread:142200 [handler.py:handle_request_defer():164] handle defer: 10
+2022-07-01 17:22:36,248 DEBUG   SenderThread:142200 [sender.py:send():235] send: footer
+2022-07-01 17:22:36,248 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: defer
+2022-07-01 17:22:36,248 INFO    SenderThread:142200 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-07-01 17:22:36,348 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-01 17:22:36,348 DEBUG   SenderThread:142200 [sender.py:send_request():249] send_request: poll_exit
+2022-07-01 17:22:36,348 INFO    SenderThread:142200 [file_pusher.py:join():150] waiting for file pusher
+2022-07-01 17:22:36,819 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: sampled_history
+2022-07-01 17:22:36,820 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: get_summary
+2022-07-01 17:22:36,820 DEBUG   HandlerThread:142200 [handler.py:handle_request():141] handle_request: shutdown
+2022-07-01 17:22:36,821 INFO    HandlerThread:142200 [handler.py:finish():806] shutting down handler
+2022-07-01 17:22:37,248 INFO    WriterThread:142200 [datastore.py:close():279] close: /home/lua/Documents/Code/gpt3-bot/wandb/run-20220701_171950-2p088wsf/run-2p088wsf.wandb
+2022-07-01 17:22:37,718 INFO    SenderThread:142200 [sender.py:finish():1111] shutting down sender
+2022-07-01 17:22:37,718 INFO    SenderThread:142200 [file_pusher.py:finish():145] shutting down file pusher
+2022-07-01 17:22:37,718 INFO    SenderThread:142200 [file_pusher.py:join():150] waiting for file pusher
+2022-07-01 17:22:37,719 INFO    MainThread:142200 [internal.py:handle_exit():80] Internal process exited

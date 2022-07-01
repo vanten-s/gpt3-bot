@@ -8,6 +8,7 @@ import asyncio
 from dotenv import load_dotenv
 import os
 from gtts import gTTS
+import gtts.langs
 
 # Write a discord bot that uses gpt-3 to generate text.
 # The bot should be able to generate text from a single command.
@@ -68,40 +69,14 @@ class Client(discord.Client):
 load_dotenv()
 
 
-'''
-client = Client()
-client.run(os.getenv("DISCORD_TOKEN"))
-'''
+
 
 bot = commands.Bot(command_prefix="!")
 
 @bot.event
 async def on_ready():
     print("Ready")
-'''
-@bot.event
-async def on_message(message: discord.Message):
-    print("Got msg")
-    if message.author == bot.user: return
-    if not message.content[0] == "!": return 
-    # Placeholder. When deploying: generateMsg.generate(message.content)
 
-    command = message.content[1:]
-    if command[0] == "!":
-        response = "Uwu!"
-        await message.channel.send(response)
-    
-    elif command[0] == "?":
-        response = "UwU!"
-        await message.channel.send(response, tts=True)
-
-    elif command[0] == ";":
-        response = """Never gonna give you up
-Never gonna let you down
-Never gonna run around and desert you
-        """
-        await message.channel.send(response)
-'''
 
 hasJoined = False
 
@@ -117,12 +92,10 @@ async def join(ctx):
 async def la(ctx):
     global lang
     
-    availableLangs = [lang.iso639_1_code.strip().lower()
-                      for lang in pycountry.languages
-                      if hasattr(lang, 'iso639_1_code')] 
+    if not ctx.message.content[4:].strip().lower() in gtts.langs._langs.keys(): return False
+    print(" got through the if not")
+    print(ctx.message.content[4:].strip().lower())
     
-    
-    if not ctx.message.content[4:].strip().lower() in availableLangs: return False
     
     lang = ctx.message.content[4:].strip().lower()
 
