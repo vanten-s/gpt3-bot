@@ -1,6 +1,6 @@
 import discord
 import generateMsg
-
+import pycountry
 from discord.ext import commands
 from discord.ext.commands import Bot
 from discord.voice_client import VoiceClient
@@ -116,10 +116,19 @@ async def join(ctx):
 @bot.command(pass_context=True)
 async def la(ctx):
     global lang
+    
+    availableLangs = [lang.iso639_1_code
+                      for lang in pycountry.languages
+                      if hasattr(lang, 'iso639_1_code')] 
+    
+    
+    if not ctx.message.content[4:] in availableLangs: return False
+    
     lang = ctx.message.content[4:]
 
 @bot.command(pass_context=True)
 async def doIt(ctx: discord.ext.commands.context.Context):
+    ResetAudio(ctx)
     guild = ctx.guild
     voice_client: discord.VoiceClient = discord.utils.get(bot.voice_clients, guild=guild)
 
