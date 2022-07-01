@@ -117,14 +117,14 @@ async def join(ctx):
 async def la(ctx):
     global lang
     
-    availableLangs = [lang.iso639_1_code
+    availableLangs = [lang.iso639_1_code.strip().lower()
                       for lang in pycountry.languages
                       if hasattr(lang, 'iso639_1_code')] 
     
     
-    if not ctx.message.content[4:] in availableLangs: return False
+    if not ctx.message.content[4:].strip().lower() in availableLangs: return False
     
-    lang = ctx.message.content[4:]
+    lang = ctx.message.content[4:].strip().lower()
 
 @bot.command(pass_context=True)
 async def doIt(ctx: discord.ext.commands.context.Context):
