@@ -7,9 +7,6 @@ import generateMsg
 intents = discord.Intents.default()
 intents.members = True
 
-def generate_text():
-    return "This is a test! Why are you reading this?"
-
 # Create a discord client
 class Client(discord.Client):
     async def on_ready(self):
@@ -20,13 +17,28 @@ class Client(discord.Client):
         await self.change_presence(activity=discord.Game(name='Generating text...'))
 
     async def on_message(self, message):
+        if not message.content.startswith("!"): return
         if message.author == self.user:
             return
 
-        if message.content.startswith('!generate'):
-            await message.channel.send(generate_text())
+        messageWithOutPrefix = message.content[1:]
+        command = messageWithOutPrefix.split()[0]
+        arguments = messageWithOutPrefix.split()[1:]
+            
+
+        if command == 'generate':
+            if len(arguments) == 0:
+                await message.channel.send("usage: !generate <text>")
+                return
+            
+            await message.channel.send(generateMsg.generate(" ".join(arguments)))
+            
+        elif command == 'egg':
+            await message.channel.send('spam')
 
 
 client = Client()
 client.run('OTkyMzE4NzM0MjQ3MTMzMjY1.GGPHH0.NG9yUOOW_WEur94bHuLD50l7PZWYZAzmjXo65k')
+
+
 
