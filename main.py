@@ -116,7 +116,7 @@ async def join(ctx):
 @bot.command(pass_context=True)
 async def gen(ctx: discord.ext.commands.context.Context):
 
-    response = generateMsg.generate(ctx.message.content)
+    response = generateMsg.generate(ctx.message.content[5:])
 
     # response = "UWU"
 
