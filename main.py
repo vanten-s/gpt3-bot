@@ -1,5 +1,5 @@
 import discord
-import generateMsg
+#import generateMsg
 
 from discord.ext import commands
 from discord.ext.commands import Bot
@@ -16,6 +16,7 @@ intents.members = True
 
 # Create a discord client
 class Client(discord.Client):
+
     async def on_ready(self):
         print('Logged in as')
         print(self.user.name)
@@ -23,11 +24,11 @@ class Client(discord.Client):
         print('------')
         await self.change_presence(activity=discord.Game(name='Generating text...'))
 
-    async def on_message(self, message):
+    async def on_message(self, message: discord.Message):
         if not message.content.startswith("!"): return
         if message.author == self.user:
             return
-
+        
         messageWithOutPrefix = message.content[1:]
         command = messageWithOutPrefix.split()[0]
         arguments = messageWithOutPrefix.split()[1:]
@@ -43,7 +44,6 @@ class Client(discord.Client):
             await message.channel.send(generateMsg.generate(" ".join(arguments)))
             # Make the bot look like it's not typing
             await message.channel.trigger_typing()
-            return
 
         elif command == 'egg':
             await message.channel.send('spam')
@@ -54,13 +54,35 @@ class Client(discord.Client):
 
             print('spam')
 
+        elif command.lower() == 'SoMeBoDy'.lower():
+            await message.channel.send('SoMeBoDy once told me the world is gonna roll me')
+            await message.channel.send('I aint the sharpest tool in the shed')
+            await message.channel.send('She was looking kind of dumb with her finger and her finger and her thumb')
+
+        elif command == 'join':
+            voice_channel = message.author.voice.channel
+            
+    
+
 load_dotenv()
 
 
+'''
 client = Client()
 client.run(os.getenv("DISCORD_TOKEN"))
+'''
+
+bot = commands.Bot(command_prefix="!")
 
 
+async def on_ready():
+    print("Ready")
 
+@bot.command(pass_context=True)
+async def join(ctx):
+    author = ctx.message.author
+    channel = author.voice.channel
+    await channel.connect()
 
+bot.run(os.getenv("DISCORD_TOKEN"))
 
