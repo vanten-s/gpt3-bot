@@ -112,7 +112,21 @@ async def join(ctx):
     author = ctx.message.author
     channel = author.voice.channel
     await channel.connect()
-    
+
+
+
+@bot.command(pass_context=True)
+async def doIt(ctx: discord.ext.commands.context.Context):
+    guild = ctx.guild
+    voice_client: discord.VoiceClient = discord.utils.get(bot.voice_clients, guild=guild)
+
+    audio_source = discord.FFmpegPCMAudio('yes.mp3')
+    if not voice_client.is_playing():
+        voice_client.play(audio_source, after=None)
+
+
+
+
 @bot.command(pass_context=True)
 async def gen(ctx: discord.ext.commands.context.Context):
 
@@ -132,4 +146,6 @@ async def gen(ctx: discord.ext.commands.context.Context):
         voice_client.play(audio_source, after=None)
 
 bot.run(os.getenv("DISCORD_TOKEN"))
+
+
 
