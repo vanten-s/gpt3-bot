@@ -115,6 +115,7 @@ async def join(ctx):
 
 @bot.command(pass_context=True)
 async def la(ctx):
+    global lang
     lang = ctx.message.content[4:]
 
 @bot.command(pass_context=True)

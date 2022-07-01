@@ -1,0 +1,50 @@
+
+Ready
+Atleast here
+[38m[48m[mp3 @ 0x55b2e8de15c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x55f4044ef5c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+Ignoring exception in command gen:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/lua/Documents/Code/gpt3-bot/main.py", line 148, in gen
+    await ResetAudio(ctx)
+  File "/home/lua/Documents/Code/gpt3-bot/main.py", line 137, in ResetAudio
+    channel = author.voice.channel
+AttributeError: 'NoneType' object has no attribute 'channel'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'channel'
+Atleast here
+[38m[48m[mp3 @ 0x55ed4f7575c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+Ignoring exception in command gen:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/lua/Documents/Code/gpt3-bot/main.py", line 148, in gen
+    await ResetAudio(ctx)
+  File "/home/lua/Documents/Code/gpt3-bot/main.py", line 137, in ResetAudio
+    channel = author.voice.channel
+AttributeError: 'NoneType' object has no attribute 'channel'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'channel'
+Atleast here
+[38m[48m[mp3 @ 0x55d5e47595c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x55eb94bba5c0] Estimating duration from bitrate, this may be inaccurate
