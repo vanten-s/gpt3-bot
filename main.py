@@ -126,6 +126,15 @@ async def doIt(ctx: discord.ext.commands.context.Context):
 
 
 
+async def ResetAudio(ctx: discord.ext.commands.context.Context):
+    for x in bot.voice_clients:
+        if x.guild != ctx.message.guild: return
+        await x.disconnect()
+
+    author = ctx.message.author
+    channel = author.voice.channel
+    await channel.connect()
+
 
 @bot.command(pass_context=True)
 async def gen(ctx: discord.ext.commands.context.Context):
@@ -134,13 +143,7 @@ async def gen(ctx: discord.ext.commands.context.Context):
 
     print("Atleast here")
     
-    for x in bot.voice_clients:
-        if x.guild != ctx.message.guild: return
-        await x.disconnect()
-
-    author = ctx.message.author
-    channel = author.voice.channel
-    await channel.connect()
+    ResetAudio(ctx)
 
     # response = "UWU"
 
