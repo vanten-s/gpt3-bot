@@ -4,3 +4,322 @@ Joining VC
 Ignoring exception in command None:
 discord.ext.commands.errors.CommandNotFound: Command "what" is not found
 Atleast here
+[38m[48m[mp3 @ 0x555b5ad865c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x5572e094b5c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x562e3d05c5c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x55b132e555c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x562b161ac5c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x558c0c5e35c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x55e768e665c0] Estimating duration from bitrate, this may be inaccurate
+ got through the if not
+en
+Atleast here
+[38m[48m[mp3 @ 0x55d48d5cc5c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x55b97e8cb5c0] Estimating duration from bitrate, this may be inaccurate
+ got through the if not
+en
+Atleast here
+[38m[48m[mp3 @ 0x55b0514835c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x562c703945c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x56428b7125c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x55912a6f05c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x558a9e94c5c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x5611bfdcb5c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x555ca51f75c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x556917d585c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x55fd0fee35c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x558cb6ced5c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x55963d99b5c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x564d7acdb5c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x55c7c68035c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x55eab94c75c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x55af210175c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x55dbfedbd5c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x55b4649d75c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x55b94ce455c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x55a2b0ed05c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x55e95239b5c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x55ad6a5ed5c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x55c057a905c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+awww. ANYWAYS I
+Ignoring exception in command gen:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/lua/Documents/Code/gpt3-bot/main.py", line 146, in gen
+    if not voice_client.is_playing():
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'
+Atleast here
+[38m[48m[mp3 @ 0x5596bff265c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+awww. ANYWAYS I
+Ignoring exception in command gen:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/lua/Documents/Code/gpt3-bot/main.py", line 146, in gen
+    if not voice_client.is_playing():
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'
+Atleast here
+awww. ANYWAYS I
+Ignoring exception in command gen:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/lua/Documents/Code/gpt3-bot/main.py", line 146, in gen
+    if not voice_client.is_playing():
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'
+Atleast here
+awww. ANYWAYS I
+Ignoring exception in command gen:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/lua/Documents/Code/gpt3-bot/main.py", line 146, in gen
+    if not voice_client.is_playing():
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'
+Atleast here
+awww. ANYWAYS I
+Ignoring exception in command gen:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/lua/Documents/Code/gpt3-bot/main.py", line 146, in gen
+    if not voice_client.is_playing():
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'
+Atleast here
+awww. ANYWAYS I
+Ignoring exception in command gen:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/lua/Documents/Code/gpt3-bot/main.py", line 146, in gen
+    if not voice_client.is_playing():
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'
+Atleast here
+awww. ANYWAYS I
+Ignoring exception in command gen:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/lua/Documents/Code/gpt3-bot/main.py", line 146, in gen
+    if not voice_client.is_playing():
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'
+Atleast here
+awww. ANYWAYS I
+Ignoring exception in command gen:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/lua/Documents/Code/gpt3-bot/main.py", line 146, in gen
+    if not voice_client.is_playing():
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'
+Atleast here
+awww. ANYWAYS I
+Ignoring exception in command gen:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/lua/Documents/Code/gpt3-bot/main.py", line 146, in gen
+    if not voice_client.is_playing():
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'
+Atleast here
+awww. ANYWAYS I
+Ignoring exception in command gen:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/lua/Documents/Code/gpt3-bot/main.py", line 146, in gen
+    if not voice_client.is_playing():
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'
+Atleast here
+awww. ANYWAYS I
+Ignoring exception in command gen:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/lua/Documents/Code/gpt3-bot/main.py", line 146, in gen
+    if not voice_client.is_playing():
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'
+Atleast here
+awww. ANYWAYS I
+Ignoring exception in command gen:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/lua/Documents/Code/gpt3-bot/main.py", line 146, in gen
+    if not voice_client.is_playing():
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'
+Atleast here
+awww. ANYWAYS I
+Ignoring exception in command gen:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/lua/Documents/Code/gpt3-bot/main.py", line 146, in gen
+    if not voice_client.is_playing():
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'
+Atleast here
+[38m[48m[mp3 @ 0x559aeb3bf5c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x55ea7be8d5c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x5589f79c45c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x557c57cb25c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x5628c81075c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x56421fa305c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x55d30b64b5c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x55fc936ea5c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x5573f2da95c0] Estimating duration from bitrate, this may be inaccurate
