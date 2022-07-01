@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.18.7-zen1-1-zen-x86_64-with-glibc2.35",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-07-01T10:33:00.012997",
+    "startedAt": "2022-07-01T10:32:58.861930",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/lua/Documents/Code/gpt3bot/gpt3bot/main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/Spannnn45/gpt3-bot.git",
+        "commit": "59e6e1f4f8033777992704cd90b65656dfc4924f"
+    },
+    "email": "eric.o.artursson@hotmail.com",
+    "root": "/home/lua/Documents/Code/gpt3bot/gpt3bot",
+    "host": "LinuxIsAwesome",
+    "username": "lua",
+    "executable": "/home/lua/anaconda3/bin/python3"
+}

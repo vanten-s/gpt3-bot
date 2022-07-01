@@ -26,7 +26,7 @@ class Client(discord.Client):
         arguments = messageWithOutPrefix.split()[1:]
             
 
-        if command == 'generate':
+        if command == '!':
             # Make the bot look like it's typing
             await message.channel.trigger_typing()
             if len(arguments) == 0:
