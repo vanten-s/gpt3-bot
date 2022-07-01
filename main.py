@@ -80,6 +80,7 @@ async def on_ready():
 
 @bot.command(pass_context=True)
 async def join(ctx):
+    print("Joining VC")
     author = ctx.message.author
     channel = author.voice.channel
     await channel.connect()
@@ -97,7 +98,7 @@ async def on_message(message: discord.Message):
     
     elif command[0] == "?":
         response = "UwU!"
-        await message.channel.send(response)
+        await message.channel.send(response, tts=True)
 
     elif command[0] == ";":
         response = """Never gonna give you up
