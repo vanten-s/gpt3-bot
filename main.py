@@ -77,16 +77,10 @@ bot = commands.Bot(command_prefix="!")
 @bot.event
 async def on_ready():
     print("Ready")
-
-@bot.command(pass_context=True)
-async def join(ctx):
-    print("Joining VC")
-    author = ctx.message.author
-    channel = author.voice.channel
-    await channel.connect()
-
+'''
 @bot.event
 async def on_message(message: discord.Message):
+    print("Got msg")
     if message.author == bot.user: return
     if not message.content[0] == "!": return 
     # Placeholder. When deploying: generateMsg.generate(message.content)
@@ -106,8 +100,18 @@ Never gonna let you down
 Never gonna run around and desert you
         """
         await message.channel.send(response)
+'''
 
+@bot.command(pass_context=True)
+async def join(ctx):
+    print("Joining VC")
+    author = ctx.message.author
+    channel = author.voice.channel
+    await channel.connect()
     
+@bot.command(pass_context=True)
+async def gen(ctx):
+    await ctx.message.channel.send("Uwu", tts=True)
 
 bot.run(os.getenv("DISCORD_TOKEN"))
 
