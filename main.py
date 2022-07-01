@@ -74,7 +74,7 @@ client.run(os.getenv("DISCORD_TOKEN"))
 
 bot = commands.Bot(command_prefix="!")
 
-
+@bot.event
 async def on_ready():
     print("Ready")
 
@@ -83,6 +83,30 @@ async def join(ctx):
     author = ctx.message.author
     channel = author.voice.channel
     await channel.connect()
+
+@bot.event
+async def on_message(message: discord.Message):
+    if message.author == bot.user: return
+    if not message.content[0] == "!": return 
+    # Placeholder. When deploying: generateMsg.generate(message.content)
+
+    command = message.content[1:]
+    if command[0] == "!":
+        response = "Uwu!"
+        await message.channel.send(response)
+    
+    elif command[0] == "?":
+        response = "UwU!"
+        await message.channel.send(response)
+
+    elif command[0] == ";":
+        response = """Never gonna give you up
+Never gonna let you down
+Never gonna run around and desert you
+        """
+        await message.channel.send(response)
+
+    
 
 bot.run(os.getenv("DISCORD_TOKEN"))
 
