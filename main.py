@@ -128,7 +128,7 @@ async def doIt(ctx: discord.ext.commands.context.Context):
 
 async def ResetAudio(ctx: discord.ext.commands.context.Context):
     for x in bot.voice_clients:
-        if x.guild != ctx.message.guild: return
+        if x.guild != ctx.message.guild: continue
         await x.disconnect()
 
     author = ctx.message.author

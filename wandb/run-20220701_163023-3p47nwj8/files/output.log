@@ -1,0 +1,7 @@
+
+Ready
+Joining VC
+Atleast here
+/home/lua/Documents/Code/gpt3-bot/main.py:146: RuntimeWarning: coroutine 'ResetAudio' was never awaited
+  ResetAudio(ctx)
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
