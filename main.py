@@ -1,4 +1,5 @@
 import discord
+import generateMsg
 
 # Write a discord bot that uses gpt-3 to generate text.
 # The bot should be able to generate text from a single command.
