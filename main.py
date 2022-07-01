@@ -132,6 +132,12 @@ async def gen(ctx: discord.ext.commands.context.Context):
 
     response = generateMsg.generate(ctx.message.content[5:])
 
+    print("Atleast here")
+    
+    for x in bot.voice_clients:
+        if x.server == ctx.message.server:
+            return await x.disconnect()
+
     # response = "UWU"
 
     await ctx.message.channel.send(response)
