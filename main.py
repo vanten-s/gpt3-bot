@@ -27,11 +27,16 @@ class Client(discord.Client):
             
 
         if command == 'generate':
+            # Make the bot look like it's typing
+            await message.channel.trigger_typing()
             if len(arguments) == 0:
                 await message.channel.send("usage: !generate <text>")
                 return
             
             await message.channel.send(generateMsg.generate(" ".join(arguments)))
+            # Make the bot look like it's not typing
+            await message.channel.trigger_typing()
+            return
 
         elif command == 'egg':
             await message.channel.send('spam')
