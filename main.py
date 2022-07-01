@@ -138,6 +138,10 @@ async def gen(ctx: discord.ext.commands.context.Context):
         if x.server == ctx.message.server:
             return await x.disconnect()
 
+    author = ctx.message.author
+    channel = author.voice.channel
+    await channel.connect()
+
     # response = "UWU"
 
     await ctx.message.channel.send(response)
