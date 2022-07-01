@@ -7,6 +7,7 @@ from discord.voice_client import VoiceClient
 import asyncio
 from dotenv import load_dotenv
 import os
+from gtts import gTTS
 
 # Write a discord bot that uses gpt-3 to generate text.
 # The bot should be able to generate text from a single command.
@@ -102,8 +103,11 @@ Never gonna run around and desert you
         await message.channel.send(response)
 '''
 
+hasJoined = False
+
 @bot.command(pass_context=True)
 async def join(ctx):
+    hasJoined = True
     print("Joining VC")
     author = ctx.message.author
     channel = author.voice.channel
@@ -111,10 +115,19 @@ async def join(ctx):
     
 @bot.command(pass_context=True)
 async def gen(ctx: discord.ext.commands.context.Context):
-    await ctx.message.channel.send("Uwu", tts=True)
+
+    response = generateMsg.generate(ctx.message.content)
+
+    # response = "UWU"
+
+    await ctx.message.channel.send(response)
     guild = ctx.guild
     voice_client: discord.VoiceClient = discord.utils.get(bot.voice_clients, guild=guild)
-    audio_source = discord.FFmpegPCMAudio('yes.mp3')
+    
+    tts = gTTS(response, lang="en", slow=False)
+    tts.save("no.mp3")
+
+    audio_source = discord.FFmpegPCMAudio('no.mp3')
     if not voice_client.is_playing():
         voice_client.play(audio_source, after=None)
 
