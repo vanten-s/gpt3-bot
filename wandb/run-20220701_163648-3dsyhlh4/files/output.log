@@ -1,0 +1,33 @@
+
+Ready
+Joining VC
+Atleast here
+Ignoring exception in command gen:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/lua/Documents/Code/gpt3-bot/main.py", line 146, in gen
+    await ResetAudio(ctx)
+  File "/home/lua/Documents/Code/gpt3-bot/main.py", line 135, in ResetAudio
+    channel = author.voice.channel
+AttributeError: 'NoneType' object has no attribute 'channel'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'channel'
+Joining VC
+Atleast here
+[38m[48m[mp3 @ 0x56527e01e5c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x55d566d465c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+[38m[48m[mp3 @ 0x5626a385d5c0] Estimating duration from bitrate, this may be inaccurate
+Atleast here
+Ignoring exception in command None:
+discord.ext.commands.errors.CommandNotFound: Command "!die" is not found
+[38m[48m[mp3 @ 0x56208afd45c0] Estimating duration from bitrate, this may be inaccurate

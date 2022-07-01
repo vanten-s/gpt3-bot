@@ -14,7 +14,7 @@ from gtts import gTTS
 
 intents = discord.Intents.default()
 intents.members = True
-
+lang = "de"
 # Create a discord client
 class Client(discord.Client):
 
@@ -113,7 +113,9 @@ async def join(ctx):
     channel = author.voice.channel
     await channel.connect()
 
-
+@bot.command(pass_context=True)
+async def la(ctx):
+    lang = ctx.message.content[4:]
 
 @bot.command(pass_context=True)
 async def doIt(ctx: discord.ext.commands.context.Context):
@@ -151,7 +153,7 @@ async def gen(ctx: discord.ext.commands.context.Context):
     guild = ctx.guild
     voice_client: discord.VoiceClient = discord.utils.get(bot.voice_clients, guild=guild)
     
-    tts = gTTS(response, lang="en", slow=False)
+    tts = gTTS(response, lang=lang, slow=False)
     tts.save("no.mp3")
 
     audio_source = discord.FFmpegPCMAudio('no.mp3')
