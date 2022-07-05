@@ -5,6 +5,7 @@ Created by hacktail and Spannnn45
 
 
 The commands are:
+
 la! "used to change the language pronounciation. An example is en for english"
 
 !gen "What you wanna say to the gpt-3 bot"
