@@ -1,0 +1,151 @@
+
+Ready
+Atleast here
+awww. ANYWAYS I
+Ignoring exception in command gen:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/lua/gpt3-bot/main.py", line 146, in gen
+    if not voice_client.is_playing():
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'
+Atleast here
+awww. ANYWAYS I
+Ignoring exception in command gen:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/lua/gpt3-bot/main.py", line 146, in gen
+    if not voice_client.is_playing():
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'
+Atleast here
+awww. ANYWAYS I
+Joining VC
+Ignoring exception in command join:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/lua/gpt3-bot/main.py", line 89, in join
+    await channel.connect()
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/abc.py", line 1277, in connect
+    voice = cls(client, self)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/voice_client.py", line 199, in __init__
+    raise RuntimeError("PyNaCl library needed in order to use voice")
+RuntimeError: PyNaCl library needed in order to use voice
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: RuntimeError: PyNaCl library needed in order to use voice
+Ignoring exception in command gen:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/lua/gpt3-bot/main.py", line 146, in gen
+    if not voice_client.is_playing():
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'
+Atleast here
+awww. ANYWAYS I
+Ignoring exception in command gen:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/lua/gpt3-bot/main.py", line 146, in gen
+    if not voice_client.is_playing():
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'
+Joining VC
+Ignoring exception in command join:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/lua/gpt3-bot/main.py", line 89, in join
+    await channel.connect()
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/abc.py", line 1277, in connect
+    voice = cls(client, self)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/voice_client.py", line 199, in __init__
+    raise RuntimeError("PyNaCl library needed in order to use voice")
+RuntimeError: PyNaCl library needed in order to use voice
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: RuntimeError: PyNaCl library needed in order to use voice
+Atleast here
+awww. ANYWAYS I
+Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 152, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/usr/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 138, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "/usr/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 405, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "/usr/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/usr/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Ignoring exception in command gen:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 85, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/lua/gpt3-bot/main.py", line 146, in gen
+    if not voice_client.is_playing():
+AttributeError: 'NoneType' object has no attribute 'is_playing'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 939, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 863, in invoke
+    await injected(*ctx.args, **ctx.kwargs)
+  File "/home/lua/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 94, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'NoneType' object has no attribute 'is_playing'

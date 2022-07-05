@@ -1,3 +1,4 @@
+from click import pass_context
 import discord
 import generateMsg
 import pycountry
@@ -15,7 +16,7 @@ import gtts.langs
 
 intents = discord.Intents.default()
 intents.members = True
-lang = "de"
+lang = "en"
 # Create a discord client
 class Client(discord.Client):
 
@@ -89,9 +90,14 @@ async def join(ctx):
     await channel.connect()
 
 @bot.command(pass_context=True)
+async def stop(ctx):
+    print("I am trying to stop the annoying sounds!")
+    await ResetAudio(ctx)
+
+
+@bot.command(pass_context=True)
 async def la(ctx):
     global lang
-    
     if not ctx.message.content[4:].strip().lower() in gtts.langs._langs.keys(): return False
     print(" got through the if not")
     print(ctx.message.content[4:].strip().lower())
