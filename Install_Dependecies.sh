@@ -6,3 +6,11 @@ pip3 install gtts
 pip3 install wandb
 pip3 install openai
 pip3 install pynacl
+pip install discord.py
+pip install pycountry
+pip install asyncio
+pip install python-dotenv
+pip install gtts
+pip install wandb
+pip install openai
+pip install pynacl
