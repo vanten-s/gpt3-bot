@@ -1,0 +1,7 @@
+discord.py
+pycountry
+python-dotenv
+gtts
+wandb
+openai
+pynacl

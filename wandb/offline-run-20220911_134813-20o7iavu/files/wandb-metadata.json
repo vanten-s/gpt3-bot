@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.15.67-1-lts-x86_64-with-glibc2.36",
+    "python": "3.10.7",
+    "heartbeatAt": "2022-09-11T13:48:13.879309",
+    "startedAt": "2022-09-11T13:48:13.861444",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/svante/projects/gpt3-bot/main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/Spannnn45/gpt3-bot.git",
+        "commit": "1bfa875989a602dc69328264f8b39fbe7677aae2"
+    },
+    "email": null,
+    "root": "/home/svante/projects/gpt3-bot",
+    "host": "Svantes-PCs",
+    "username": "svante",
+    "executable": "/usr/bin/python"
+}

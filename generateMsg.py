@@ -1,8 +1,8 @@
-import os
-import openai
+import os import openai
 import wandb
+import dotenv
 
-openai.api_key = "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"
+openai.api_key = dotenv.dotenv_values(".env")["OPENAI_APIKEY"]
 
 run = wandb.init(project='python gpt-3 discord bot')
 prediction_table = wandb.Table(columns=["prompt", "completion"])
