@@ -2,3 +2,5 @@ __pycache__/
 uwupush.py
 autoPusher.py
 .env
+wandb/
+
