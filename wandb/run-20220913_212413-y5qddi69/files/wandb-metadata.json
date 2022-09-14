@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.15.59-1-MANJARO-x86_64-with-glibc2.36",
+    "python": "3.10.5",
+    "heartbeatAt": "2022-09-13T19:24:14.399569",
+    "startedAt": "2022-09-13T19:24:13.173038",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/get_out_or_else/projects/python/gpt3-bot/main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "git@github.com:vanten-s/gpt3-bot.git",
+        "commit": "1d2f1985fcea176d72b45038c92c79498dfd3d6f"
+    },
+    "email": "svante.spannar@gmail.com",
+    "root": "/home/get_out_or_else/projects/python/gpt3-bot",
+    "host": "laptop",
+    "username": "sunflower",
+    "executable": "/usr/bin/python"
+}
