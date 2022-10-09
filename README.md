@@ -26,6 +26,10 @@ now you should be able to run
 ```shell
 python main.py 
 ```
+or 
+```shell
+./run.sh
+```
 
 # Commands
 
