@@ -31,11 +31,11 @@ class Client(discord.Client):
         if not message.content.startswith("!"): return
         if message.author == self.user:
             return
-        
+
         messageWithOutPrefix = message.content[1:]
         command = messageWithOutPrefix.split()[0]
         arguments = messageWithOutPrefix.split()[1:]
-            
+
 
         if command == '!':
             # Make the bot look like it's typing
@@ -43,7 +43,7 @@ class Client(discord.Client):
             if len(arguments) == 0:
                 await message.channel.send("usage: !generate <text>")
                 return
-            
+
             await message.channel.send(generateMsg.generate(" ".join(arguments)))
             # Make the bot look like it's not typing
             await message.channel.trigger_typing()
@@ -64,8 +64,8 @@ class Client(discord.Client):
 
         elif command == 'join':
             voice_channel = message.author.voice.channel
-            
-    
+
+
 
 load_dotenv()
 
@@ -77,6 +77,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 @bot.event
 async def on_ready():
     print("Ready")
+    await bot.change_presence(activity=discord.Streaming(name="Type !help for help", url="https://www.twitch.tv/guthen"))
 
 
 hasJoined = False
@@ -101,8 +102,8 @@ async def la(ctx):
     if not ctx.message.content[4:].strip().lower() in gtts.langs._langs.keys(): return False
     print(" got through the if not")
     print(ctx.message.content[4:].strip().lower())
-    
-    
+
+
     lang = ctx.message.content[4:].strip().lower()
 
 @bot.command(pass_context=True)
@@ -126,25 +127,25 @@ async def ResetAudio(ctx: discord.ext.commands.context.Context):
     channel = author.voice.channel
     await channel.connect()
 
+# @bot.command(pass_context=True)
+# async def help(ctx: discord.ext.commands.context.Context):
+#     await ctx.message.channel.send("https://www.github.com/vanten-s/gpt3-bot for help")
 
 @bot.command(pass_context=True)
 async def gen(ctx: discord.ext.commands.context.Context):
-
     response = generateMsg.generate(ctx.message.content[5:])
-
-    print("Atleast here")
     try:
         await ResetAudio(ctx)
 
     except:
-        print("awww. ANYWAYS I")
+        print("Couldn't reset audio :(")
 
     # response = "UWU"
 
     await ctx.message.channel.send(response)
     guild = ctx.guild
     voice_client: discord.VoiceClient = discord.utils.get(bot.voice_clients, guild=guild)
-    
+
     tts = gTTS(response, lang=lang, slow=False)
     tts.save("no.mp3")
 
